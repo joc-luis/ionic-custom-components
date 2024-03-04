@@ -48,8 +48,13 @@ const showButtons = computed((): ActionButton[] => {
   </ion-fab>
   <ion-list>
     <ion-item>
-      <ion-input label="Search" label-placement="floating" v-model="search"
-                 :on-ion-change="$emit('onSearch', search, currentPage, take)"></ion-input>
+      <ion-input
+          label="Search"
+          label-placement="floating"
+          v-model="search"
+          :on-ion-change="$emit('onSearch', search, currentPage, take)"
+          @keydown.enter="$emit('onEnter')">
+      </ion-input>
     </ion-item>
     <ion-item>
       <ion-select :on-ion-change="$emit('onSearch', search, currentPage, take)" label="Page" label-placement="floating"

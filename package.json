@@ -31,17 +31,20 @@
   ],
   "author": "joc-luis",
   "peerDependencies": {
-    "vue": "^3.4.19",
-    "@ionic/vue": "^7.0.0"
+    "@ionic/vue": "^7.0.0",
+    "vue": "^3.4.19"
   },
   "devDependencies": {
+    "@capacitor/device": "^5.0.7",
+    "@capacitor/filesystem": "5.2.1",
+    "@capawesome/capacitor-file-picker": "^5.3.0",
     "@vitejs/plugin-vue": "^5.0.4",
     "typescript": "^5.2.2",
     "vite": "^5.1.4",
     "vite-plugin-dts": "^3.7.3",
-    "vue-tsc": "^1.8.27",
     "vue": "^3.4.19",
-    "vue-router": "4.3.0"
+    "vue-router": "4.3.0",
+    "vue-tsc": "^1.8.27"
   },
   "license": "MIT",
   "repository": "https://github.com/joc-luis/ionic-custom-components"

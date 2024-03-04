@@ -4,6 +4,7 @@
 * IonSearch
 * IonClientPagination
 * IonServerPagination
+* IonFile
 
 ## IonSearch
 A select component that includes search mode.  
@@ -31,4 +32,9 @@ items: any[]
 }
 ```
 ![GIF Recording 2024-03-03 at 6.25.40 PM.gif](https://i.ibb.co/HPfwdNL/GIF-Recording-2024-03-03-at-6-19-12-PM.gif)
-![GIF Recording 2024-03-03 at 6.19.12 PM.gif](https://i.ibb.co/nmC1wpz/GIF-Recording-2024-03-03-at-6-25-40-PM.gif)  
+![GIF Recording 2024-03-03 at 6.19.12 PM.gif](https://i.ibb.co/drtrgCD/2024-03-04-10-19-09-tamplate-app-Banned-vue.png)  
+
+## IonFile
+Component to grab files regardless of platform
+![example_code_ion_file](https://i.ibb.co/hdbxPV8/2024-03-04-10-22-08-tamplate-app-Account-Update-Component-vue.png)
+![example_page_ion_file](https://i.ibb.co/y6VwY3R/2024-03-04-10-23-46-Ionic-App-Mozilla-Firefox.png)
