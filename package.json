@@ -1,0 +1,46 @@
+{
+  "name": "ionic-custom-components",
+  "version": "0.0.3",
+  "description": "Custom components for ionic vue projects",
+  "main": "./dist/IonicCustomComponents.umd.cjs",
+  "module": "./dist/IonicCustomComponents.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/IonicCustomComponents.js",
+      "require": "./dist/IonicCustomComponents.umd.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "serve": "vite preview"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "component",
+    "library",
+    "ionic",
+    "search",
+    "pagination"
+  ],
+  "author": "joc-luis",
+  "peerDependencies": {
+    "vue": "^3.4.19",
+    "@ionic/vue": "^7.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "typescript": "^5.2.2",
+    "vite": "^5.1.4",
+    "vite-plugin-dts": "^3.7.3",
+    "vue-tsc": "^1.8.27",
+    "vue": "^3.4.19"
+  },
+  "license": "MIT"
+}
