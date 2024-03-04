@@ -1,6 +1,6 @@
 {
   "name": "ionic-custom-components",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Custom components for ionic vue projects",
   "main": "./dist/IonicCustomComponents.umd.cjs",
   "module": "./dist/IonicCustomComponents.js",
