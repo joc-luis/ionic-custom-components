@@ -18,7 +18,10 @@
   "scripts": {
     "build": "vite build",
     "dev": "vite",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "patch" : "vite build && npm version patch && npm publish",
+    "minior" : "vite build && npm version patch && npm minior",
+    "major" : "vite build && npm version patch && npm major"
   },
   "keywords": [
     "vue",
