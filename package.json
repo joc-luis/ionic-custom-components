@@ -1,6 +1,6 @@
 {
   "name": "ionic-custom-components",
-  "version": "1.0.1-0",
+  "version": "1.0.1",
   "description": "Custom components for ionic vue projects",
   "main": "./dist/IonicCustomComponents.umd.cjs",
   "module": "./dist/IonicCustomComponents.js",
@@ -19,9 +19,9 @@
     "build": "vite build",
     "dev": "vite",
     "serve": "vite preview",
-    "patch" : "vite build && npm version patch && npm publish",
-    "minior" : "vite build && npm version patch && npm minior",
-    "major" : "vite build && npm version patch && npm major"
+    "patch": "vite build && npm version patch && npm publish",
+    "minior": "vite build && npm version patch && npm minior",
+    "major": "vite build && npm version patch && npm major"
   },
   "keywords": [
     "vue",
