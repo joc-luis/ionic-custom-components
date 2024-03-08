@@ -4,7 +4,7 @@ import {computed, ref} from "vue";
 import {Column} from "../../models/column.ts";
 import {ActionButton} from "../../models/action-button.ts";
 import {chevronBackCircle} from "ionicons/icons";
-import {IonInput, IonSelect, IonFabButton, IonFabList} from "@ionic/vue";
+import {IonInput, IonSelect, IonFabButton, IonFabList, IonFab, IonList, IonItem, IonSelectOption, IonItemDivider,IonLabel, IonAccordion, IonAccordionGroup} from "@ionic/vue";
 
 const props = defineProps<{
   rows: any[],

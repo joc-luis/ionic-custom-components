@@ -6,7 +6,7 @@
 * IonServerPagination
 * IonFile
 
-## IonSearch
+## IonAutocomplete
 A select component that includes search mode.  
 ![GIF Recording 2024-03-03 at 6.16.36 PM.gif](https://i.ibb.co/wMDXFc2/GIF-Recording-2024-03-03-at-6-13-12-PM.gif)  
 ![GIF Recording 2024-03-03 at 6.13.12 PM.gif](https://i.ibb.co/ysLr6md/GIF-Recording-2024-03-03-at-6-16-36-PM.gif)  
